@@ -8,7 +8,7 @@ metadata = MetaData()
 db = SQLAlchemy(metadata=metadata)
 
 # define a model class by inheriting from db.Model.
-
+# Save data
 
 class Pet(db.Model):
     __tablename__ = 'pets'
